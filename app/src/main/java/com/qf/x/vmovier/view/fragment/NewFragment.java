@@ -17,7 +17,6 @@ import com.qf.x.vmovier.presenter.Home_NewPresenter;
  * Created by X on 2017/1/10.
  */
 public class NewFragment extends Fragment implements IUiCallback<Home_New> {
-    private String cacherControl="/apiv3/post/getPostByTab";
     private int page=1;
     private int size=10;
 

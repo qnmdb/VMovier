@@ -54,7 +54,7 @@ public class BehindActivity extends AppCompatActivity {
         list.add(behindFragmen4);
         list.add(behindFragmen5);
         list.add(behindFragmen6);
-        //list.add(behindFragmen7);
+        list.add(behindFragmen7);
         list.add(behindFragmen8);
         BehindFragmenAdapter adapter = new BehindFragmenAdapter(getSupportFragmentManager(), list);
         behindViewPager.setAdapter(adapter);
